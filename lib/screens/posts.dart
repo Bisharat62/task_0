@@ -50,7 +50,7 @@ Widget cardposts(dynamic data, context) {
           data.body.toString(),
           style: TextStyle(
               color:
-                  (provider.id == data.userId) ? Colors.black : Colors.black87,
+                  (provider.id == data.userId) ? Colors.black : Colors.black54,
               fontSize: 14),
         )),
         const SizedBox(

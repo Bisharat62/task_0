@@ -16,9 +16,9 @@ class ApiProfile {
       List<ProfileClassModel> profile =
           list.map((dynamic item) => ProfileClassModel.fromJson(item)).toList();
       print(profile);
-      profile.forEach((element) {
-        print(element.email);
-      });
+      // profile.forEach((element) {
+      //   print(element.email);
+      // });
       userdata = profile;
       return profile;
     } else {

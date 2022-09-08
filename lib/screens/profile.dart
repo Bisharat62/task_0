@@ -46,7 +46,7 @@ Widget show_data(String title, String value, context) {
                 style: TextStyle(
                     color: Colors.black,
                     fontSize: 16,
-                    fontWeight: FontWeight.w600),
+                    fontWeight: FontWeight.w500),
               ),
             )
           ],
