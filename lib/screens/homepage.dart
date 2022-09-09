@@ -20,6 +20,13 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     return Scaffold(
+      floatingActionButton: FloatingActionButton(
+          backgroundColor: Color(0xffE43228),
+          onPressed: () {},
+          child: Icon(
+            Icons.add,
+            color: Colors.white,
+          )),
       appBar: AppBar(
         automaticallyImplyLeading: false,
         toolbarHeight: 100,
